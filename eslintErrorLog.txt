@@ -1,0 +1,7 @@
+The react/jsx-space-before-closing rule is deprecated. Please use the react/jsx-tag-spacing rule with the "beforeSelfClosing" option instead.
+
+[4mG:\myCode\react-todolist\src\components\Comment.js[24m
+  [2m70:21[22m  [33mwarning[39m  Dangerous property 'dangerouslySetInnerHTML' found  [2mreact/no-danger[22m
+
+[33m[1m✖ 1 problem (0 errors, 1 warning)[22m[39m
+[33m[1m[22m[39m
