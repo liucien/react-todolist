@@ -60,10 +60,10 @@ class CommentList extends React.Component{
     render() {
         return (
             <div>
-                {this.state.comments.map((comment, i) =>
+                {this.state.comments.map((item, i) =>
                     (<Comment
-                        comment={comment}
-                        key={i}
+                        comment={item}
+                        key={item.createTime}
                         index={i}
                         onDeleteComment={this.handleDeleteComment}
                         onSelect={this.onSelect}
